@@ -1,5 +1,18 @@
 **🚀 Deployment & Configuration Guide**
 
+**🔗 Live Testing Access**
+
+To facilitate testing and validation, the Experience Cloud site is already active and publicly accessible in my Salesforce org.  
+The application form can be accessed using the link below:
+
+**<https://caldas-developer-dev-ed.my.site.com/>**
+
+Additionally, the REST webhook developed for this solution is available for testing through the following public endpoint:
+
+**<https://caldas-developer-dev-ed.my.site.com/services/apexrest/applications>**
+
+Both the user interface and the webhook invoke the same business logic, ensuring consistent behavior regardless of the submission channel.
+
 **1\. Deploy Metadata**
 
 **Deploy the following components to the target Salesforce org:**
